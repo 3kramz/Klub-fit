@@ -1,0 +1,38 @@
+
+[
+    {
+      "id": 1,
+      "name": "Healing Meaditation",
+      "img": "https://i.ibb.co/Y75FQTc/yoga-maditation-1.jpg",
+      "duration":"2 Months (12 Hours)",
+      "day":"Saturday",
+      "time":"07:00pm - 08:00pm",
+      "fee":"3500/- only"
+    },
+    {
+       
+      "id": 1,
+      "name": "Diploma in Yoga Therapy",
+      "img": "https://i.ibb.co/gRPnX8G/therapy-min.jpg",
+      "duration":"6 Months (12 Hours)",
+      "day":"Saturday",
+      "time":"07:00pm - 08:00pm",
+      "fee":"10,000/- only"
+      },
+      {
+        
+      "id": 1,
+      "name": "Diploma in Yoga Therapy",
+      "img": "https://i.ibb.co/m6ZWGZj/yoga-teacher.jpg",
+      "duration":"1 Year (300 Hours)",
+      "day":"Saturday, Sunday",
+      "time":"11:00am - 07:00pm",
+      "fee":"18,000/- only"
+      }
+    
+]
+
+
+
+
+
