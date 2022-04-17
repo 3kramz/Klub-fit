@@ -1,5 +1,6 @@
 
 import './App.css';
+import Home from './Components/Pages/Home/Home';
 import Header from './Components/Shared/Header/Header';
 import useLoadData from './Components/Shared/Hooks/useLoadData';
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
+      <Home></Home>
       
     </div>
   );
