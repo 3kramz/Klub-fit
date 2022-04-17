@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div className='container mt-5'>
           <Banner></Banner>
+          
         </div>
     );
 };
