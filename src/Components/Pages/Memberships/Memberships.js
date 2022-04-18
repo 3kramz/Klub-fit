@@ -4,7 +4,7 @@ import Membership from './Membership/Membership';
 
 const Memberships = () => {
     const memberships=useLoadData("membership.json")
-    console.log(memberships)
+   
     return (
         <div className="container mt-3">
            <h2 className="text-center">Our Passes</h2>
