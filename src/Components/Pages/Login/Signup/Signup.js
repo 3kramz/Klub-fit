@@ -5,6 +5,7 @@ import './Signup.css';
 import auth from '../../../../firebase.init';
 
 import Loading from '../../../Shared/Loading/Loading';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
@@ -62,6 +63,7 @@ const Register = () => {
                     value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <SocialLogin></SocialLogin>
             
         </div>
     );
