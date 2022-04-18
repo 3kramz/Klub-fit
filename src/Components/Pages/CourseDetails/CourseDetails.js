@@ -1,12 +1,12 @@
 import React from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const CourseDetails = () => {
-    const { courseId } = useParams();
+ 
     return (
-        <div>
-            <h2>Welcome to detail: {courseId}</h2>
-            <div className='text-center'>
+        <div className='container text-center'>
+            <h2 className="fs-2 my-3">Welcome to Course Details </h2>
+            <div className=''>
                 <Link to="/checkout">
                     <button className='btn btn-primary'>Proceed Checkout</button>
                 </Link>
