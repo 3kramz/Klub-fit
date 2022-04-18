@@ -16,9 +16,7 @@ const CheckOut = () => {
         const email = emailRef.current.value;
         const phone = phoneRef.current.value;
    
-       
-
-        toast(`Hello ${name}, Thank you for Purchesing our course. we will email and text your ${email} and ${phone}  `);
+        toast(`Hello ${name}, Thank you for Purchesing our course. we will email and text your ${email} and ${phone}`);
     }
 
     return (
