@@ -10,6 +10,7 @@ import NotFound from './Components/Shared/NotFound/NotFound';
 import CourseDetails from './Components/Pages/CourseDetails/CourseDetails';
 import CheckOut from './Components/CheckOut/CheckOut';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
+import Footer from './Components/Shared/Footer/Footer';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
                                         }></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
       
     </div>
   );
