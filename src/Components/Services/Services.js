@@ -8,7 +8,7 @@ const Services = () => {
     const services=useLoadData("services.json")
     
     return (
-        <div className="container mt-3">
+        <div className="container mt-3" id="services">
            <h2 className="text-center">Our Passes</h2>
            <div className="card-deck">
                 <div className="row row-cols-1 row-cols-md-3 g-4">
