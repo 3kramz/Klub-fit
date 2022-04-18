@@ -8,6 +8,7 @@ import Signup from '././Components/Pages/Login/Signup/Signup'
 import Blogs from './Components/Pages/Blogs/Blogs';
 import NotFound from './Components/Shared/NotFound/NotFound';
 import CourseDetails from './Components/Pages/CourseDetails/CourseDetails';
+import CheckOut from './Components/CheckOut/CheckOut';
 
 
 function App() {
@@ -24,11 +25,7 @@ function App() {
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<Signup></Signup>}></Route>
-        {/* <Route path="/checkout" element={
-          <RequireAuth>
-            <Checkout></Checkout>
-          </RequireAuth>
-        }></Route> */}
+        <Route path="/checkout" element={ <CheckOut></CheckOut> }></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       

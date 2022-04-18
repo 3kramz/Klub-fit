@@ -1,5 +1,5 @@
 import React from 'react';
-import useLoadData from '../../Hooks/useLoadData'
+import useLoadData from '../../../Hooks/useLoadData'
 import Membership from './Membership/Membership';
 
 const Memberships = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import useLoadData from '../Hooks/useLoadData'
+import useLoadData from '../../../Hooks/useLoadData'
 import Course from './Course/Course';
 
 
